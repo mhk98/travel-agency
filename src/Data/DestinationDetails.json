@@ -1,0 +1,34 @@
+[
+  {
+    "destinationId": 1,
+    "image": "assets/images/maldives1.jpg"
+  },
+  {
+    "destinationId": 2,
+    "image": "assets/images/canada1.jpg"
+  },
+  {
+    "destinationId": 3,
+    "image": "assets/images/italy1.jpg"
+  },
+  {
+    "destinationId": 4,
+    "image": "assets/images/greece1.jpg"
+  },
+  {
+    "destinationId": 5,
+    "image": "assets/images/france1.jpg"
+  },
+  {
+    "destinationId": 6,
+    "image": "assets/images/dubai1.jpg"
+  },
+  {
+    "destinationId": 7,
+    "image": "assets/images/canada1.jpg"
+  },
+  {
+    "destinationId": 8,
+    "image": "assets/images/italy1.jpg"
+  }
+]

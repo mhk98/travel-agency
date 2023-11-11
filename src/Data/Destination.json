@@ -1,0 +1,55 @@
+[
+  {
+    "destinationId": 1,
+    "image": "assets/images/maldives1.jpg",
+    "location": "Maldive",
+    "packages": "3+"
+  },
+  {
+    "destinationId": 2,
+    "image": "assets/images/canada1.jpg",
+    "location": "Canada",
+
+    "packages": "4+"
+  },
+  {
+    "destinationId": 3,
+    "image": "assets/images/italy1.jpg",
+    "location": "Italy",
+
+    "packages": "2+"
+  },
+  {
+    "destinationId": 4,
+    "image": "assets/images/greece1.jpg",
+    "location": "Greece",
+
+    "packages": "5+"
+  },
+  {
+    "destinationId": 5,
+    "image": "assets/images/france1.jpg",
+    "location": "France",
+
+    "packages": "6+"
+  },
+  {
+    "destinationId": 6,
+    "image": "assets/images/dubai1.jpg",
+    "location": "Dubai",
+
+    "packages": "8+"
+  },
+  {
+    "destinationId": 7,
+    "image": "assets/images/canada1.jpg",
+    "location": "Canada",
+    "packages": "7+"
+  },
+  {
+    "destinationId": 8,
+    "image": "assets/images/italy1.jpg",
+    "location": "Italy",
+    "packages": "6+"
+  }
+]
