@@ -198,7 +198,11 @@ const Destination = () => {
                     </div>
                     <div className="col col-md-4 text-right">
                       <div className="permalink">
-                        <Link className="text-decoration-none" variant="transparent">
+                        <Link
+                          to="/destination-details"
+                          className="text-decoration-none"
+                          variant="transparent"
+                        >
                           Explore <i className="ti-arrow-right" />
                         </Link>
                       </div>
