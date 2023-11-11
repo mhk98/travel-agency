@@ -31,5 +31,9 @@ Follow these steps to run and test the project:
 3. npm install (Install project dependencies)
 4. npm start (Run the Travel Agency project)
 5. npm run build for project build
-5. API: I use remote mysql database and expressjs API for login and signup.
-6. The server will be running at http://localhost:3000
+6. API: I use remote mysql database and expressjs API for login and signup.
+7. The server will be running at http://localhost:3000
+
+## Live Demo
+
+Check out the live demo [here](https://travelpro-agency.netlify.app).

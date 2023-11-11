@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import "./Destination.css";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Destinations from "../Data/Destination.json";
 
 const Destination = () => {
@@ -183,11 +183,11 @@ const Destination = () => {
             <div className="col-md-4">
               <div className="item">
                 <div className="position-re o-hidden">
-                  <img src={item.image} alt="" />
+                  <img src={item.image} alt="" onClick={handleShow} />
                 </div>
                 <div className="con">
                   <h5>
-                    <a href="">
+                    <a href="" onClick={handleShow}>
                       <i className="ti-location-pin" /> {item.location}
                     </a>
                   </h5>
@@ -198,9 +198,9 @@ const Destination = () => {
                     </div>
                     <div className="col col-md-4 text-right">
                       <div className="permalink">
-                        <Button variant="transparent" onClick={handleShow}>
+                        <Link className="text-decoration-none" variant="transparent">
                           Explore <i className="ti-arrow-right" />
-                        </Button>
+                        </Link>
                       </div>
                     </div>
                   </div>
