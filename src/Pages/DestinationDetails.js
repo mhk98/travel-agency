@@ -18,7 +18,9 @@ const DestinationDetails = () => {
   const handleShow = () => setShow(true);
   return (
     <div className="mx-12 mt-5 row justify-content-between">
-      <div className="col-lg-10 mx-auto" style={{ marginBottom: "20px" }}></div>
+      <div className="col-lg-10 mx-auto" style={{ marginBottom: "20px" }}>
+        <img src={card1} alt="" style={{height:"550px"}} />
+      </div>
 
       <Modal show={show} onHide={handleClose}>
         {/* <Modal.Header closeButton>
